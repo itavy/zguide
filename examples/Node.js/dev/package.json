@@ -1,0 +1,114 @@
+{
+  "name": "zmq-node-examples",
+  "description": "Examples for zmq guide",
+  "version": "0.0.1",
+  "contributors": [
+    "Octavian Ionescu <itavyg@gmail.com> (https://github.com/itavy)"
+  ],
+  "dependencies": {
+    "zmq": "2.10.0"
+  },
+  "jshintConfig": {
+    "curly": false,
+    "eqeqeq": true,
+    "immed": true,
+    "newcap": true,
+    "noarg": true,
+    "sub": true,
+    "undef": true,
+    "unused": true,
+    "boss": true,
+    "eqnull": true,
+    "node": true,
+    "strict": true,
+    "white": true,
+    "nonbsp": true,
+    "browser": true,
+    "mocha": true,
+    "indent": 2,
+    "latedef": true,
+    "immed": true,
+    "shadow": false
+  },
+  "jscsConfig": {
+    "disallowTrailingWhitespace": true,
+    "validateIndentation": 2,
+    "validateParameterSeparator": ", ",
+    "validateQuoteMarks": {
+      "mark": "'",
+      "escape": true
+    },
+    "disallowEmptyBlocks": true,
+    "disallowMixedSpacesAndTabs": true,
+    "disallowMultipleLineStrings": true,
+    "disallowSpaceAfterObjectKeys": true,
+    "disallowSpaceAfterPrefixUnaryOperators": true,
+    "disallowSpaceBeforePostfixUnaryOperators": true,
+    "disallowSpacesInCallExpression": true,
+    "disallowTrailingComma": true,
+    "requireDotNotation": "except_snake_case",
+    "requireLineBreakAfterVariableAssignment": true,
+    "requireMultipleVarDecl": "onevar",
+    "requireSpaceAfterBinaryOperators": true,
+    "requireSpaceAfterKeywords": true,
+    "requireSpaceBeforeBinaryOperators": true,
+    "requireSpaceBeforeBlockStatements": true,
+    "requireSpaceBetweenArguments": true,
+    "requireSpacesInNamedFunctionExpression": {
+      "beforeOpeningRoundBrace": true,
+      "beforeOpeningCurlyBrace": true
+    },
+    "requireSpacesInFunctionExpression": {
+      "beforeOpeningRoundBrace": true,
+      "beforeOpeningCurlyBrace": true
+    },
+    "requireSpacesInAnonymousFunctionExpression": {
+      "beforeOpeningRoundBrace": true,
+      "beforeOpeningCurlyBrace": true
+    },
+    "requireSpacesInFunctionDeclaration": {
+      "beforeOpeningRoundBrace": true,
+      "beforeOpeningCurlyBrace": true
+    },
+    "requireBlocksOnNewline": true,
+    "requireCurlyBraces": [
+      "if",
+      "else",
+      "for",
+      "while",
+      "do",
+      "try",
+      "catch"
+    ]
+  },
+  "eslintConfig": {
+    "env": {
+      "node": true,
+      "mocha": true
+    },
+    "rules": {
+      "quotes": [1, "single"],
+      "no-mixed-requires": [0, false],
+      "no-underscore-dangle": [0, false],
+      "yoda": [1, "always"],
+      "indent": [2, 2],
+      "brace-style": [2, "1tbs"],
+      "comma-style": [2, "last"],
+      "default-case": 2,
+      "func-style": [2, "declaration"],
+      "guard-for-in": 2,
+      "no-floating-decimal": 2,
+      "no-nested-ternary": 2,
+      "no-undefined": 2,
+      "radix": 2,
+      "space-after-function-name": [1, "always"],
+      "space-after-keywords": [2, "always"],
+      "space-before-blocks": 2,
+      "spaced-line-comment": [2, "always", { "exceptions": ["-"]}],
+      "strict": [2, "global"],
+      "wrap-iife": 2,
+      "camelcase": false,
+      "new-cap": false
+    }
+  }
+}
